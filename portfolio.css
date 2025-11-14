@@ -15,13 +15,14 @@ body {
   margin-right: auto;
   background: white;
   padding: 18px;
-  border: 1px solid #ddd;
+  border: 3px solid #74c7eb;
+  border-top:5px solid #74c7eb ;
+  border-bottom:5px solid #74c7eb ;
   border-radius: 8px;
 }
-#name{
 
 
-}
+
 h1 {
   margin: 0;
   font-size: 24px;
@@ -41,7 +42,7 @@ p {
   height: 160px;
   object-fit: cover;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 2px solid #113f6e;
   display: block;
   margin-bottom: 10px;
 }
@@ -78,4 +79,14 @@ a:hover {
 .small {
   font-size: 13px;
   color: #666;
+}
+#contact{
+  border: 2px solid black;
+  padding-left: 5px;
+  background-color: rgba(236, 138, 138,0.4);
+  border-radius: 10px;
+  color: brown;
+}
+#number:hover{
+  text-decoration: underline;
 }
